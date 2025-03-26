@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Riddhi Siddhi Girls PG</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Riddhi Siddhi <span>Girls PG</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <div class="container">
+            <h2>Gallery</h2>
+            <p>Explore our PG through photos</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="rooms">Rooms</button>
+                <button class="filter-btn" data-filter="facilities">Facilities</button>
+                <button class="filter-btn" data-filter="common-areas">Common Areas</button>
+                <button class="filter-btn" data-filter="food">Food</button>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="rooms">
+                    <img src="images/room1.jpeg" alt="Single Room">
+                    <div class="overlay">
+                        <h3>Single Sharing Room</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="rooms">
+                    <img src="images/room2.jpeg" alt="Double Room">
+                    <div class="overlay">
+                        <h3>Double Sharing Room</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="rooms">
+                    <img src="images/room3.jpeg" alt="Triple Room">
+                    <div class="overlay">
+                        <h3>Triple Sharing Room</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="facilities">
+                    <img src="images/bathroom.jpeg" alt="Bathroom">
+                    <div class="overlay">
+                        <h3>Clean Bathrooms</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="facilities">
+                    <img src="images/kitchen.jpeg" alt="Kitchen">
+                    <div class="overlay">
+                        <h3>Common Kitchen</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="facilities">
+                    <img src="images/washing-machine.jpeg" alt="Washing Machine">
+                    <div class="overlay">
+                        <h3>Washing Machine</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="common-areas">
+                    <img src="images/living-area.jpeg" alt="Living Area">
+                    <div class="overlay">
+                        <h3>Common Living Area</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="common-areas">
+                    <img src="images/study-area.jpeg" alt="Study Area">
+                    <div class="overlay">
+                        <h3>Study Area</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="food">
+                    <img src="images/food1.jpeg" alt="Food">
+                    <div class="overlay">
+                        <h3>Nutritious Meals</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="food">
+                    <img src="images/dining.jpeg" alt="Dining Area">
+                    <div class="overlay">
+                        <h3>Dining Area</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="facilities">
+                    <img src="images/cupboard.jpeg" alt="Cupboard">
+                    <div class="overlay">
+                        <h3>Wooden Cupboards</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="facilities">
+                    <img src="images/security.jpeg" alt="Security">
+                    <div class="overlay">
+                        <h3>CCTV Security</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox">
+        <span class="close-btn">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="caption"></div>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+
+    <!-- Video Tour -->
+    <section class="video-tour">
+        <div class="container">
+            <h2>Virtual Tour</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/example" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Riddhi Siddhi PG</h3>
+                    <p>A safe, comfortable and modern living space for girls in Viman Nagar, Pune.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="rooms.html">Rooms</a></li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Lane 5, Sopan Nagar, Wadgaon Sheri, Pune</li>
+                        <li><i class="fas fa-phone-alt"></i> +91 9175793270</li>
+                        <li><i class="fas fa-envelope"></i> riddhisiddhipg@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Riddhi Siddhi Girls PG. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
